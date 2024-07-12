@@ -17,24 +17,11 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2024/07/11/hello-world/"/>
-    <url>/2024/07/11/hello-world/</url>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>数模混合IC设计实训答辩有感</title>
     <link href="/2024/06/14/%E6%95%B0%E6%A8%A1%E6%B7%B7%E5%90%88IC%E8%AE%BE%E8%AE%A1%E5%AE%9E%E8%AE%AD%E7%AD%94%E8%BE%A9%E6%9C%89%E6%84%9F/"/>
     <url>/2024/06/14/%E6%95%B0%E6%A8%A1%E6%B7%B7%E5%90%88IC%E8%AE%BE%E8%AE%A1%E5%AE%9E%E8%AE%AD%E7%AD%94%E8%BE%A9%E6%9C%89%E6%84%9F/</url>
     
-    <content type="html"><![CDATA[<ol><li>结果很重要，过程亦非常重要，只追求结果而不关注过程是愚蠢的，因为会一无所获。</li><li>模电设计太吃经验了，它是一个建立在器件的物理规律和电气特性基础上的学科，同时更是建立在前人工程实践经验上的学科。知乎某EE PhD称模拟电子技术为过去近百年来“工作笔记的汇总”，而且曾老师好像点赞了这篇文章。</li><li>模电对现在的我来说就像一个复杂的黑箱，在我脑中没有一个函数能确切地描述它的功能，每当学完一部分模电后感觉对其中套路有些许了解时，仿真结果往往又事与愿违。</li><li>基于3. 我逐渐变成了simulation monkey，无法胜任模拟IC的设计工作，在此引用胡老师在答辩中的一句评语：“这不像是设计工程师该做的事”。</li><li>“前途是光明的，道路是曲折的。”通往模拟IC设计师之路，路在何方？看似完备的培养体系，在实际的学习实践过程中，合上书不也是两眼一摸黑，没有模电仙人指引，只能摸着石头过河。</li><li>模拟IC设计能力不行，对IC装备完全不感兴趣，半导体物理没什么知识储备，当时选41系也不是打算进Fab厂的，数字IC又非常卷，路在何方？</li><li>如今学习IC已有两年，本科还有一年，一年时间想解决目前的问题恐怕够呛，哥们不再读几年硕士怕是什么都干不了了，以后只能到咸鱼接活代画版图了吧。</li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li>结果很重要，过程亦非常重要，只追求结果而不关注过程是愚蠢的，因为会一无所获。</li><li>模电设计太吃经验了，它是一个建立在器件的物理规律和电气特性基础上的学科，同时更是建立在前人工程实践经验上的学科。知乎某EE PhD称模拟电子技术为过去近百年来“工作笔记的汇总”，而且曾老师好像点赞了这篇文章。</li><li>模电对现在的我来说就像一个复杂的黑箱，在我脑中没有一个函数能确切地描述它的功能，每当学完一部分模电后感觉对其中套路有些许了解时，仿真结果往往又事与愿违。</li><li>基于3. 我逐渐变成了simulation monkey，无法胜任模拟IC的设计工作，在此引用胡老师在答辩中的一句评语：“这不像是设计工程师该做的事”。</li><li>“前途是光明的，道路是曲折的。”通往模拟IC设计师之路，路在何方？看似完备的培养体系，在实际的学习实践过程中，合上书不也是两眼一摸黑，没有模电仙人指引，只能摸着石头过河。</li><li>模拟IC设计能力不行，对IC装备完全不感兴趣，半导体物理没什么知识储备，当时选41系也不是打算进Fab厂的，数字IC又非常卷，路在何方？</li><li>如今学习IC已有两年，本科还有一年，一年时间想解决目前的问题恐怕够呛，哥们不再读几年硕士怕是什么都干不了了，以后只能到咸鱼接活代画版图了吧。</li></ol><p><img src="/images/razavi.png" alt="Razavi"></p>]]></content>
     
     
     
