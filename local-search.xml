@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>IC package</title>
+    <link href="/2024/07/24/IC-package/"/>
+    <url>/2024/07/24/IC-package/</url>
+    
+    <content type="html"><![CDATA[<p>封装技术发展路径：</p><p><img src="/images/IC-package/%E5%8F%91%E5%B1%95%E8%B7%AF%E5%BE%84.png" alt="封装技术发展路径"></p><h2 id="裸片封装"><a href="#裸片封装" class="headerlink" title="裸片封装"></a>裸片封装</h2><p>传统方式，晶圆切割后，粘在基板上，进行引线键合。</p><h2 id="倒片封装"><a href="#倒片封装" class="headerlink" title="倒片封装"></a>倒片封装</h2><p>晶圆倒扣在基板上，用金属小球连接</p><p>缩短了互联距离、减小了阻抗、连接密度更大、封装更紧凑、尺寸更小</p><h3 id="RDL重布线层技术"><a href="#RDL重布线层技术" class="headerlink" title="RDL重布线层技术"></a>RDL重布线层技术</h3><p>RDL (redistribution layer) 将IO触点从边缘延伸到芯片表面</p><p><img src="/images/IC-package/RDL.png" alt="RDL技术"></p><h2 id="晶圆级封装"><a href="#晶圆级封装" class="headerlink" title="晶圆级封装"></a>晶圆级封装</h2><p>这个也要基于RDL技术</p><p><img src="/images/IC-package/%E6%99%B6%E5%9C%86%E7%BA%A7%E5%B0%81%E8%A3%85.png" alt="晶圆级封装"></p><h3 id="扇入型封装"><a href="#扇入型封装" class="headerlink" title="扇入型封装"></a>扇入型封装</h3><p>切割之后出来就是成品，成品的尺寸和裸片几乎相同</p><h3 id="扇出型封装"><a href="#扇出型封装" class="headerlink" title="扇出型封装"></a>扇出型封装</h3><p><img src="/images/IC-package/%E6%89%87%E5%85%A5%E6%89%87%E5%87%BA%E5%9E%8B.png" alt="扇出型封装与扇入型封装"></p><p>相比扇入型，外围多加了一圈保护壳，增加了触点</p><p><img src="/images/IC-package/%E6%89%87%E5%87%BA%E5%9E%8B%E5%B0%81%E8%A3%85.png" alt="扇出型封装"></p><h2 id="2-5D-3D封装"><a href="#2-5D-3D封装" class="headerlink" title="2.5D&#x2F;3D封装"></a>2.5D&#x2F;3D封装</h2><p>考虑多个芯片协同封装</p><p>传输路径短，减小了延迟、功耗</p><p><img src="/images/IC-package/2.5d_3d.png" alt="Untitled"></p><h3 id="2-5D封装"><a href="#2-5D封装" class="headerlink" title="2.5D封装"></a>2.5D封装</h3><p>将两块芯片放在同一块硅中介层上，再把硅中介层安装在基板上。</p><p><img src="/images/IC-package/2.5d.png" alt="Untitled"></p><h3 id="3D封装"><a href="#3D封装" class="headerlink" title="3D封装"></a>3D封装</h3><p>相比于2.5D，没有了Si interposer，直接进行Die堆叠。</p><p><img src="/images/IC-package/3d" alt="Untitled"></p><p>2.5D&#x2F;3D封装，其关键技术是TSV (Trough Silicon Via) 硅通孔技术</p><h3 id="chiplet封装"><a href="#chiplet封装" class="headerlink" title="chiplet封装"></a>chiplet封装</h3><p><img src="/images/IC-package/soc_sip_chiplet.jpg" alt="Untitled"></p><p>相当于把SoC这一整个复杂大系统拆分成几个小芯片</p><ul><li>良率高了，成本低了</li><li>技术难度低了，开发周期短了</li><li>可复用了，更灵活了</li><li>面积消耗多一些，而性能与SoC旗鼓相当</li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>测试文章</title>
     <link href="/2024/07/12/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <url>/2024/07/12/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
